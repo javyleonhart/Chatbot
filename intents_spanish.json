@@ -1,0 +1,49 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "buenos dias", "buenas tardes"],
+            "responses": ["Hola, ¿cómo puedo ayudarte hoy?", "¡Buenas! ¿Qué necesitas?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adiós", "hasta luego", "nos vemos"],
+            "responses": ["Adiós, ¡que tengas un buen día!", "Hasta luego, ¡vuelve pronto!"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["Gracias", "Muchas gracias", "Gracias por la información", "Gracias por la ayuda"],
+            "responses": ["De nada ¡Estoy para ayudar!", "No hay de qué ¡A tu servicio!"]
+        },
+        {
+            "tag": "Sedes",
+            "patterns": ["¿En que sedes se realiza el programa?", "¿En que lugar son las clases?", "¿En donde es?", "¿En donde se dan las clases?"],
+            "responses": ["El programa se va a llevar a cabo en las sedes de capital y rivadavia."]
+        },
+        {
+            "tag": "horarios",
+            "patterns": ["¿En que dias y horarios?", "¿A que hora son las clases?", "¿Cuales son los horarios y dias disponibles?", "¿Que dias y horarios tienen las clases?"],
+            "responses": ["Las clases se van a desarrollar los martes y jueves de 18:30 a 19:30 en sede capital y de 17 a 18 en sede rivadavia."]
+        },
+        {
+            "tag": "precios",
+            "patterns": ["¿Cuanto cuesta?", "¿Cual es el costo?", "¿Cuanto sale ingresar al programa?", "¿Cuanto sale?"],
+            "responses": ["El costo no tiene ningún valor inicial. Aquel que se inscriba, deberé comprometerse a prestar un servicio relacionado a su área de trabajo para una actividad caritativa o social para ayudar a otras personas"]
+        },
+        {
+            "tag": "objetivo",
+            "patterns": ["¿Cual es el fin de este programa?", "¿Cual es el objetivo?", "¿A que aspira este programa?"],
+            "responses": ["¡Nuestro principal objetivo es construir una comunidad donde nos ayudemos entre todos! Nosotros damos el puntapié inicial al asistirlos con su salud. Luego, les tocará a ustedes, alumnos, ayudar a otros en el área en que mejor se desempeñen."]
+        },
+        {
+            "tag": "programa",
+            "patterns": ["¿En que consiste el programa?", "programa"],
+            "responses": ["El programa consiste en brindar un servicio de salud a otras personas a cambio de su servicio en otras actividades sociales. Creemos que entre todos podemos formar una comunidad donde nos ayudamos mutuamente sin necesidad de que medie el factor económico"]
+        },
+        {
+            "tag": "garantias",
+            "patterns": ["¿Tienen garantías?", "garantías de productos", "¿qué garantías ofrecen?"],
+            "responses": ["Nuestros productos tienen una garantía de 10 años. También ofrecemos garantías extendidas."]
+        }
+    ]
+}

@@ -4,4 +4,4 @@ requests
 numpy
 tensorflow
 streamlit
-
+streamlit-chat

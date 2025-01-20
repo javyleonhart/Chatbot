@@ -1,6 +1,7 @@
-nltk==3.8.1
-Unidecode==1.3.8
-requests==2.32.3
-numpy==1.23.5
-tensorflow==2.12.0
-
+nltk
+Unidecode
+requests
+numpy
+tensorflow
+streamlit
+streamlit-chat

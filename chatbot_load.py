@@ -35,12 +35,12 @@ def load_json_from_url(url):
 
 # URLs de los archivos
 intents_url = 'https://raw.githubusercontent.com/javyleonhart/Chatbot/refs/heads/master/intents_spanish.json'  # Reemplaza <commit> con el commit correcto
-words_url = 'https://github.com/bkmay1417/chatbot/raw/501f470b57007c3c8e2faa732a9848a3f5bb05f8/words_spanish.pkl'       # Reemplaza <commit> con el commit correcto
-classes_url = 'https://github.com/bkmay1417/chatbot/raw/501f470b57007c3c8e2faa732a9848a3f5bb05f8/classes_spanish.pkl'   # Reemplaza <commit> con el commit correcto
+words_url = 'https://github.com/javyleonhart/Chatbot/raw/7f8c6ec3a02f560d7d4dc3bae61f5a45fde624a6/words_spanish.pkl'       # Reemplaza <commit> con el commit correcto
+classes_url = 'https://github.com/javyleonhart/Chatbot/raw/7f8c6ec3a02f560d7d4dc3bae61f5a45fde624a6/classes_spanish.pkl'   # Reemplaza <commit> con el commit correcto
 
 # URL del modelo en GitHub
 #model_url = 'https://github.com/bkmay1417/chatbot/blob/6b8460de8a4b5bd8b993ce206b6efef916a49ace/chatbot_model.h5?raw=True'
-model_url = 'https://github.com/javyleonhart/Chatbot/blob/f4b37584d8f56c09422a020af7f7c702b7d9895e/chatbot_model.h5?raw=True'
+model_url = 'https://github.com/javyleonhart/Chatbot/blob/7f8c6ec3a02f560d7d4dc3bae61f5a45fde624a6/chatbot_model.h5?raw=True'
 
 # Descargar y cargar el modelo
 def load_model_from_url(url):

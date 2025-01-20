@@ -5,5 +5,4 @@ numpy
 tensorflow
 streamlit
 streamlit-chat
-json
 random

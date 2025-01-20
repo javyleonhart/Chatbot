@@ -4,7 +4,7 @@ import nltk
 import base64
 
 # Descargar recursos necesarios
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 st.markdown(

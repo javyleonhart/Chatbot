@@ -10,6 +10,7 @@ from keras.models import load_model
 from unidecode import unidecode
 import tempfile
 import tensorflow as tf
+import streamlit as st
 
 # Inicialización del lematizador
 lemmatizer = WordNetLemmatizer()
@@ -33,12 +34,13 @@ def load_json_from_url(url):
     return response.json()
 
 # URLs de los archivos
-intents_url = 'https://github.com/bkmay1417/chatbot/raw/501f470b57007c3c8e2faa732a9848a3f5bb05f8/intents_spanish.json'  # Reemplaza <commit> con el commit correcto
+intents_url = 'https://raw.githubusercontent.com/javyleonhart/Chatbot/refs/heads/master/intents_spanish.json'  # Reemplaza <commit> con el commit correcto
 words_url = 'https://github.com/bkmay1417/chatbot/raw/501f470b57007c3c8e2faa732a9848a3f5bb05f8/words_spanish.pkl'       # Reemplaza <commit> con el commit correcto
 classes_url = 'https://github.com/bkmay1417/chatbot/raw/501f470b57007c3c8e2faa732a9848a3f5bb05f8/classes_spanish.pkl'   # Reemplaza <commit> con el commit correcto
 
 # URL del modelo en GitHub
-model_url = 'https://github.com/bkmay1417/chatbot/blob/6b8460de8a4b5bd8b993ce206b6efef916a49ace/chatbot_model.h5?raw=True'
+#model_url = 'https://github.com/bkmay1417/chatbot/blob/6b8460de8a4b5bd8b993ce206b6efef916a49ace/chatbot_model.h5?raw=True'
+model_url = 'https://github.com/javyleonhart/Chatbot/blob/f4b37584d8f56c09422a020af7f7c702b7d9895e/chatbot_model.h5?raw=True'
 
 # Descargar y cargar el modelo
 def load_model_from_url(url):

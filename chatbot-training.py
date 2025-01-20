@@ -97,3 +97,13 @@ if __name__ == "__main__":
     train_y = np.array([row[1] for row in training])
 
     create_chatbot_model(train_x, train_y, embedding_matrix, words, classes)
+
+     # Guardar las variables 'words' y 'classes'
+    with open("words.pkl", "wb") as f:
+        pickle.dump(words, f)
+
+    with open("classes.pkl", "wb") as f:
+        pickle.dump(classes, f)
+
+    # Mensaje de éxito
+    print("Archivo 'words.pkl' y 'classes.pkl' creados y guardados correctamente.")

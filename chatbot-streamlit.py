@@ -5,7 +5,7 @@ import base64
 from streamlit_chat import message
 
 # Descargar recursos necesarios
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 st.markdown(

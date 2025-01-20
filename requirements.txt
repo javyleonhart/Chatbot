@@ -3,4 +3,5 @@ Unidecode
 requests
 numpy
 tensorflow
+streamlit
 

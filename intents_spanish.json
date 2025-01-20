@@ -38,12 +38,27 @@
         {
             "tag": "programa",
             "patterns": ["¿En que consiste el programa?", "programa"],
-            "responses": ["El programa consiste en brindar un servicio de salud a otras personas a cambio de su servicio en otras actividades sociales. Creemos que entre todos podemos formar una comunidad donde nos ayudamos mutuamente sin necesidad de que medie el factor económico"]
+            "responses": ["El programa consiste en brindar un servicio de salud a otras personas a cambio de su servicio en otras actividades sociales. Creemos que entre todos podemos formar una comunidad donde nos ayudamos mutuamente sin necesidad de que medie el factor económico. Constará de dos clases semanales en el que se harán entrenamientos específicos para las patologías asociadas a la obesidad, como el síndrome metabólico"]
         },
         {
-            "tag": "garantias",
-            "patterns": ["¿Tienen garantías?", "garantías de productos", "¿qué garantías ofrecen?"],
-            "responses": ["Nuestros productos tienen una garantía de 10 años. También ofrecemos garantías extendidas."]
+            "tag": "entrenamiento",
+            "patterns": ["¿Que tipo de entrenamiento se realiza?", "¿Que se da en las clases?", "¿Cómo es el entrenamiento?"],
+            "responses": ["El entrenamiento se va a diseñar teniendo como eje principal el entrenamiento de fuerza, para buscar generar mayor masa múscular (hipertrofia). Luego se va a completar con bloques de HIIt y tábata para la metabolización de grasas"]
+        },
+        {
+            "tag": "HIIT",
+            "patterns": ["¿Que es HIIT?", "¿En que se basa el hiit?"],
+            "responses": ["HIIT es un método de entrenamiento intervalado de alta intensidad (High Intensity Interval Training), en el que se realizan ejercicios con alta demanda energética intercalado con pausas cortas durante un período de tiempo determinado. Este ejercicio apunta a un alto consumo de glucosa durante el ejercicio pero un alto consumo de ácidos grasos libres post-entrenamiento. ¡Ese periodo post ejercicio va a ser nuestra clave para lograr nuestro objetivo!"]
+        },
+        {
+            "tag": "tabata",
+            "patterns": ["¿Que es tabata?", "¿En que se basa el tabata?"],
+            "responses": ["Es una variante del método HIIT en el que el tiempo de ejercicio/pausa del circuito es de 20x10 respectivamente. Los tiempos por lo general mantienen una relación de 2 a 1 (Si el ejercicio es de 20 segundos, la mitad de ese número será el tiempo de pausa de descanso antes del siguiente ejercicio)."]
+        },
+        {
+            "tag": "resultados",
+            "patterns": ["¿Cuanto tiempo hace falta entrenar para ver resultados?", "¿Cuando tengo resultados?"],
+            "responses": ["A partir de los 3 meses de entrenamiento van a notar los primeros resultados. El fin de este programa es generar el hábito de la actividad física, por lo que se espera que mantenga la rutina con los años. La idea no es solucionar un problema puntualmente, sino generar un hábito que te garantice la salud en tu día a día."]
         }
     ]
 }
